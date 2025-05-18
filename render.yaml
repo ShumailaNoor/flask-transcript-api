@@ -1,9 +1,1 @@
-services:
-  - type: web
-    name: youtube-transcript-api
-    env: python
-    buildCommand: ""
-    startCommand: python app.py
-    envVars:
-      - key: FLASK_ENV
-        value: development
+
